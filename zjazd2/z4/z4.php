@@ -15,7 +15,7 @@
             return false;
         }
         for ($i = 2; $i <= sqrt($num); $i++) {
-            $iterations++; 
+            $it++; 
             if ($num % $i === 0) {
                 return false;
             }
@@ -27,7 +27,7 @@
     if (!is_numeric($number) || intval($number) != $number || $number <= 0) {
         echo "<p>The entered value is not a positive integer.</p>";
     } else {
-        $iterations = 0; 
+        $it = 0; 
         if (isPrime($number, $it)) {
             echo "<p>The number $number is a prime number.</p>";
         } else {
