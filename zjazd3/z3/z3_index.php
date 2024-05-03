@@ -26,7 +26,7 @@
 
 <?php
 if(isset($_POST['submit'])) {
-    include 'functions.php';
+    include 'z3_functions.php';
     
     $path = $_POST['path'];
     $directory = $_POST['directory'];
