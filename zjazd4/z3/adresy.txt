@@ -1,0 +1,3 @@
+https://www.facebook.com/;Facebook
+https://www.google.com/;Google
+https://mail.google.com/;Gmail
