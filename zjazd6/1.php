@@ -75,7 +75,7 @@ class Ubezpieczenie extends AutoZDodatkami {
         return $cenaAutaZDodatkami + $wartoscUbezpieczenia;
     }
 
-    // Gettery i Settery
+
     public function getProcentUbezpieczenia() {
         return $this->procentUbezpieczenia;
     }
